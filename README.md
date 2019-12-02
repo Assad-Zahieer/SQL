@@ -25,13 +25,13 @@
   * T2 = postal-code (p key), Street, City
 ## Query Categories
 * Data definition language (DDL)
- * Deals with schemas (DB and tables)
- * CREATE, SHOW (or DESCRIBE), ALTER, DROP
+  * Deals with schemas (DB and tables)
+  * CREATE, SHOW (or DESCRIBE), ALTER, DROP
 * Data manipulation language (DML)
- * SELECT, INSERT, UPDATE, DELETE
+  * SELECT, INSERT, UPDATE, DELETE
 * Data control language (DCL)
- * Used for permissions
- * GRANT, REVOKE
+  * Used for permissions
+  * GRANT, REVOKE
 * Transction control language (TCL)
- * Deals with transactions within a DB
- * COMMIT, ROLLBACK, SAVEPOINT
+  * Deals with transactions within a DB
+  * COMMIT, ROLLBACK, SAVEPOINT

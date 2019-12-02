@@ -10,7 +10,7 @@
 * 1st normal form (1NF) each record column only has one value
   * No arrays
   * Poential solution = split arrays into multiple columns
-| Name | Age |
+ | Name | Age |
 |------|-----|
 | Adam | 15  |
 | Adam | 17  |

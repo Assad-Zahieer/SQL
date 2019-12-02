@@ -8,14 +8,14 @@ Reference: w3schools.com
 SELECT *column1, column2,* ...  
 FROM *table_name*;
 
-SELECT * FROM Orders;
-* selects all columns from "Orders" table
+SELECT * FROM Orders;  
+selects all columns from "Orders" table
 
 ### 1.1 SELECT DISTINCT
-* only distinct values returned
+* only distinct values returned  
 SELECT DISTINCT Country 
 FROM Orders;
-* Useful for couting unique values
+* Useful for couting unique values  
 SELECT COUNT(DISTINCT Country) FROM Customers;
 ## 1.2 SQL ORDER BY
 SELECT *column1,* ...  
@@ -27,7 +27,7 @@ FROM Orders
 ORDER BY Country, City;
 * If orders have same country will sort by city
 ## 2. SQL WHERE
-* Used for conditions
+* Used for conditions  
 SELECT *column1,* ...  
 FROM *table*  
 WHERE *condition*;  

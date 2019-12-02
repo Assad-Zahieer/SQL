@@ -27,7 +27,7 @@ FROM Orders
 ORDER BY Country, City;
 * If orders have same country will sort by city
 ## 2. SQL WHERE
-* Used for conditions  
+Used for conditions  
 SELECT *column1,* ...  
 FROM *table*  
 WHERE *condition*;  
@@ -46,6 +46,7 @@ INSERT INTO *table_name* (*column1, column2,* ...)
 VALUES (*value1, value2,* ...)
 * for all columns do not need to specify which column
   * make sure values are entered in the correct order (2nd value corresponds to 2nd column)  
+  
 INSERT INTO Customers (CustomerName, City, Country)  
 VALUES ('Cardinal', 'Stavanger', 'Norway');  
 

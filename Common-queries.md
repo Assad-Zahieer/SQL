@@ -14,6 +14,7 @@ SELECT * FROM Orders;
 ### 1.1 SELECT DISTINCT
 * only distinct values returned
 SELECT DISTINCT Country 
+
 FROM Orders;
 * Useful for couting unique values
 SELECT COUNT(DISTINCT Country) FROM Customers;

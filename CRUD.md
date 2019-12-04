@@ -70,12 +70,11 @@ WHERE *condition*;
 UPDATE Customers  
 SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'  
 WHERE CustomerID = 1;  
-## SQL DELETE
+## 5 SQL DELETE
 * Use WHERE to delete specific records
 DELETE FROM *table_name*   
 WHERE *condition*;
 
 DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
 
-## SQL Functions
 

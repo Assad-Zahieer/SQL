@@ -34,7 +34,11 @@ MySQL:
 SELECT *column_name(s)*  
 FROM *table_name*  
 WHERE *condition*  
-LIMIT *number*;
+LIMIT *number*;  
+SQL Server:  
+SELECT TOP number|percent column_name(s)  
+FROM table_name  
+WHERE condition;  
 ## 2. SQL WHERE
 * Used for conditions  
 SELECT *column1,* ...  

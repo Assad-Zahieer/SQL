@@ -52,6 +52,14 @@ WHERE Country='Mexico'
 **SELECT * FROM Orders  
 WHERE NOT Country='Mexico' AND (Order-ID <= 30 OR Order-ID >= 78)**  
 Operators: https://www.w3schools.com/sql/sql_where.asp
+### 2.2 Wildcards
+**WHERE Orders 
+LIKE 'howdy%'**
+* Finds any value which starts with howdy
+* '%a' - ends with a
+* '%bot%' - bot in any position 
+* '\_b%' - 2nd character is b
+More at: https://www.w3schools.com/sql/sql_wildcards.asp
 
 ## 3 INSERT INTO
 **INSERT INTO *table_name* (*column1, column2,* ...)  

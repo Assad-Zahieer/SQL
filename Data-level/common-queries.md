@@ -58,7 +58,7 @@ LIKE 'howdy%'**
 * Finds any value which starts with howdy
 * '%a' - ends with a
 * '%bot%' - bot in any position 
-* '\_b%' - 2nd character is b 
+* '\_b%' - 2nd character is b  
 More at: https://www.w3schools.com/sql/sql_wildcards.asp
 
 ## 3 INSERT INTO
